@@ -1,0 +1,36 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "Backend API for dev bootcamp directory website/mobile app",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajguptasde/devCamper.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "rest",
+    "api",
+    "node",
+    "backend",
+    "api"
+  ],
+  "author": "Niraj Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nirajguptasde/devCamper/issues"
+  },
+  "homepage": "https://github.com/nirajguptasde/devCamper#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
