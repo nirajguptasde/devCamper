@@ -5,7 +5,7 @@
 *****************************/
 exports.getBootcamps = (req, res, next) => {
   // what should we do when we hit a route for getting all bootcamps
-  res.status(200).json({ success: true, msg: 'Show all bootcamps' });
+  res.status(200).json({ success: true, msg: 'Show all bootcamps'});
 };
 
 
